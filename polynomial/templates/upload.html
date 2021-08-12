@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+​
+<h1 class="text-center">Cubic Polynomial</h1>
+<h3 class="text-center text-muted">a * x ^ 3 + b * x ^ 2 + c * x + d </h4>
+<div class="container">  
+  <form action = "http://localhost:5000/result" method = "POST">
+   <div class='row w-100 m-0 p-0'>
+   <div class='col-sm-6 m-0 p-0'>
+      <h3>First polynomial function factors</h3> 
+      <div class="form-group">
+         <label for="a1">a:</label>
+         <input type="number" class="form-control" id="a1" name="a1" value="0" required>
+      </div>
+      <div class="form-group">
+         <label for="b1">b:</label>
+         <input type="number" class="form-control" id="b1" name="b1" value="0" required>
+      </div>
+      <div class="form-group">
+         <label for="c1">c:</label>
+         <input type="number" class="form-control" id="c1" name="c1" value="0" required>
+      </div>
+      <div class="form-group">
+         <label for="d1">d:</label>
+         <input type="number" class="form-control" id="d1" name="d1" value="0" required>
+      </div>
+    </div>
+    <div class='col-sm-6 m-0 p-0'>
+    <h3>Second polynomial function factors</h3>
+    <div class="form-group">
+       <label for="a2">a:</label>
+       <input type="number" class="form-control" id="a2" name="a2" value="0" required>
+    </div>
+    <div class="form-group">
+       <label for="b2">b:</label>
+       <input type="number" class="form-control" id="b2" name="b2" value="0" required>
+    </div>
+    <div class="form-group">
+       <label for="c2">c:</label>
+       <input type="number" class="form-control" id="c2" name="c2" value="0" required>
+    </div>
+    <div class="form-group">
+       <label for="d2">d:</label>
+       <input type="number" class="form-control" id="d2" name="d2" value="0" required>
+    </div>
+   </div>
+   </div>
+    <button type="submit" class="btn btn-primary">plot</button>
+​
+
+</body>
+
+</html>
+
+​
+
+​
+
